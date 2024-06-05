@@ -8,6 +8,8 @@ from pybricks.robotics import DriveBase
 from pybricks.media.ev3dev import SoundFile, ImageFile
 import Lampa
 
-oraiFeladat = Lampa.Lampa()
+okosHaz = Lampa.Lampa()
 
-oraiFeladat.elsoFeladat()
+#okosHaz.lampaKapcsolasGombbal()
+okosHaz.lampaKapcsolasUltraSensor()
+#okosHaz.lampaKapcsolasUltraSensor2()
